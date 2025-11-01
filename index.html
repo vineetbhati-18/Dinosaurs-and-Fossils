@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dinosaurs and Fossils</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <header>
         <nav><span>🦖 Dino Home</span>
             <ul type="none">
-                <li><a href="">About</a></li>
-                <li><a href="">Dinosaurs</a></li>
-                <li><a href="">Fossils</a></li>
-                <li><a href="">Discoveries</a></li>
-                <li><a href="">Fun Facts</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#dinosaurs">Dinosaurs</a></li>
+                <li><a href="#fossils">Fossils</a></li>
+                <li><a href="#discoveries">Discoveries</a></li>
+                <li><a href="#funfacts">Fun Facts</a></li>
             </ul>
         </nav>
         <div class="containerofh1">
@@ -26,6 +25,7 @@
             </div>
         </div>
     </header>
+
     <main>
         <div class="first">
             <div>
@@ -56,7 +56,8 @@
                     now recognize in their closest living relatives: birds.</p>
             </div>
         </div>
-        <div class="contentcontainer">
+
+        <div class="contentcontainer" id="about">
             <div class="header">
                 <h2>What Are Dinosaurs?</h2>
             </div>
@@ -69,18 +70,15 @@
                     These magnificent creatures ranged from the massive long-necked sauropods like Brachiosaurus to the
                     fearsome predators like Tyrannosaurus rex, and even small, feathered dinosaurs that would eventually
                     evolve into modern birds.</p>
-
                 <div class="wadboxcontainer">
                     <div class="wadbox">
                         <h3>Triassic Period</h3>
                         <span>252-201 million years ago</span>
                     </div>
-
                     <div class="wadbox">
                         <h3>Jurassic Period</h3>
                         <span>201-145 million years ago</span>
                     </div>
-
                     <div class="wadbox">
                         <h3>Cretaceous Period</h3>
                         <span>145-66 million years ago</span>
@@ -88,134 +86,144 @@
                 </div>
             </div>
         </div>
-        <div class="header famousdino">
-            <h2>Famous Dinosaurs</h2>
-        </div>
-        <div class="fourbox">
-            <div>
-                <div class="1">
-                    <h3>Tyrannosaurus Rex</h3>
+
+        <div class="contentcontainer" id="dinosaurs">
+            <div class="header famousdino">
+                <h2>Famous Dinosaurs</h2>
+            </div>
+            <div class="fourbox"> 
+                <div class="dino-card">
                     <img src="https://images.unsplash.com/photo-1567408332463-0b21dd5f95b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0eXJhbm5vc2F1cnVzJTIwcmV4JTIwc2tlbGV0b258ZW58MXx8fHwxNzYxOTk4MTc2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
                         alt="shadowed image of dinosaur">
+                    <h3>Tyrannosaurus Rex</h3>
                     <p>One of the largest carnivorous dinosaurs, T-Rex lived during the late Cretaceous period. With
                         powerful
                         jaws and sharp teeth, it was a formidable predator.</p>
                 </div>
-            </div>
-
-            <div>
-                <div>
-                    <h3>Triceratops</h3>
+                <div class="dino-card">
                     <img src="https://images.unsplash.com/photo-1651980802497-2ad4b4adbb5e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cmljZXJhdG9wcyUyMGZvc3NpbHxlbnwxfHx8fDE3NjE5OTg1MzR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                        alt="Second image">
+                        alt="Triceratops fossil">
+                    <h3>Triceratops</h3>
                     <p>Known for its three distinctive horns and large bony frill, Triceratops was a plant-eater that
                         lived
                         alongside T-Rex in North America.</p>
                 </div>
-
-                <div>
-                    <h3>Velociraptor</h3>
+                <div class="dino-card">
                     <img src="https://images.unsplash.com/photo-1645387326191-3eff39b10ef9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx2ZWxvY2lyYXB0b3IlMjBkaW5vc2F1cnxlbnwxfHx8fDE3NjE5OTg1MzV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                        alt="Third image">
+                        alt="Velociraptor model">
+                    <h3>Velociraptor</h3>
                     <p>Despite being smaller than portrayed in movies, Velociraptors were intelligent pack hunters with
                         distinctive sickle-shaped claws on their feet.</p>
                 </div>
-                <div>
-                    <h3>Brachiosaurus</h3>
+                <div class="dino-card">
                     <img src="https://images.unsplash.com/photo-1657660501451-b6959b96a50b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxicmFjaGlvc2F1cnVzJTIwbG9uZyUyMG5lY2t8ZW58MXx8fHwxNzYxOTk4NTM1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                        alt="Fourth Image">
+                        alt="Brachiosaurus model">
+                    <h3>Brachiosaurus</h3>
                     <p>One of the tallest and largest dinosaurs, Brachiosaurus had a long neck that allowed it to reach
                         vegetation high in the trees.</p>
                 </div>
-
             </div>
         </div>
 
-        <div>
-            <h2>Understanding Fossils</h2>
-        </div>
-        <div><img
-                src="https://images.unsplash.com/photo-1613059312885-8a758073461b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmb3NzaWwlMjBhbmNpZW50JTIwYm9uZXN8ZW58MXx8fHwxNzYxOTk4NDQ4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                alt="fish image">
-            <p>Fossils are the preserved remains or traces of ancient organisms. They form when plants, animals, or
-                other organisms are buried in sediment and, over millions of years, the organic material is replaced by
-                minerals.</p>
-            <h3>How Fossils Form</h3>
-            <ol>
-                <li>An organism dies and is quickly buried by sediment</li>
-                <li>Soft tissues decay, leaving bones or shells</li>
-                <li>Minerals from groundwater seep into the remains</li>
-                <li>Over millions of years, the remains turn to stone</li>
-                <li>Erosion or excavation exposes the fossil</li>
-
-            </ol>
-            <h3>Types of Fossils</h3>
-            <dl>
-                <dt>Body Fossils</dt>
-                <dd>Preserved bones, teeth, shells, or other body parts</dd>
-                <dt>Trace Fossils</dt>
-                <dd>Footprints, burrows, or other evidence of activity</dd>
-                <dt>Mold Fossils</dt>
-                <dd>Impressions left in rock</dd>
-                <dt>Cast Fossils</dt>
-                <dd>Formed when molds are filled with minerals</dd>
-            </dl>
-        </div>
-        <div>
-            <h2>More Amazing Dinosaurs</h2>
-        </div>
-        <div><img
-                src="https://images.unsplash.com/photo-1736942699470-46a0d14fb6c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdGVnb3NhdXJ1cyUyMHNrZWxldG9ufGVufDF8fHx8MTc2MTk5ODUzNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                alt="">
-            <h3>Stegosaurus</h3>
-            <p>Recognized by its distinctive row of plates along its back and spiked tail, Stegosaurus was a herbivore
-                from the Late Jurassic period.</p>
-        </div>
-        <div><img
-                src="https://images.unsplash.com/photo-1662908930086-683d4c548d99?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkaW5vc2F1ciUyMGVnZ3MlMjBuZXN0fGVufDF8fHx8MTc2MTk5ODUzNXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                alt="">
-            <h3>Dinosaur Eggs</h3>
-            <p>Fossilized dinosaur eggs provide valuable insights into dinosaur reproduction and nesting behaviors. Some
-                were as small as golf balls, others as large as basketballs!</p>
+        <div class="contentcontainer" id="fossils">
+            <div class="header">
+                <h2>Understanding Fossils</h2>
+            </div>
+            <div class="content">
+                <img class="content-image"
+                    src="https://images.unsplash.com/photo-1613059312885-8a758073461b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmb3NzaWwlMjBhbmNpZW50JTIwYm9uZXN8ZW58MXx8fHwxNzYxOTk4NDQ4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                    alt="fish fossil">
+                <p>Fossils are the preserved remains or traces of ancient organisms. They form when plants, animals, or
+                    other organisms are buried in sediment and, over millions of years, the organic material is replaced by
+                    minerals.</p>
+                <h3>How Fossils Form</h3>
+                <ol>
+                    <li>An organism dies and is quickly buried by sediment</li>
+                    <li>Soft tissues decay, leaving bones or shells</li>
+                    <li>Minerals from groundwater seep into the remains</li>
+                    <li>Over millions of years, the remains turn to stone</li>
+                    <li>Erosion or excavation exposes the fossil</li>
+                </ol>
+                <h3>Types of Fossils</h3>
+                <dl>
+                    <dt>Body Fossils</dt>
+                    <dd>Preserved bones, teeth, shells, or other body parts</dd>
+                    <dt>Trace Fossils</dt>
+                    <dd>Footprints, burrows, or other evidence of activity</dd>
+                    <dt>Mold Fossils</dt>
+                    <dd>Impressions left in rock</dd>
+                    <dt>Cast Fossils</dt>
+                    <dd>Formed when molds are filled with minerals</dd>
+                </dl>
+            </div>
         </div>
 
-        <div>
-            <h2>Discovering Fossils</h2>
+        <div class="contentcontainer">
+            <div class="header famousdino">
+                <h2>More Amazing Dinosaurs</h2>
+            </div>
+            <div class="fourbox">
+                <div class="dino-card">
+                    <img src="https://images.unsplash.com/photo-1736942699470-46a0d14fb6c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdGVnb3NhdXJ1cyUyMHNrZWxldG9ufGVufDF8fHx8MTc2MTk5ODUzNnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                        alt="Stegosaurus skeleton">
+                    <h3>Stegosaurus</h3>
+                    <p>Recognized by its distinctive row of plates along its back and spiked tail, Stegosaurus was a herbivore
+                        from the Late Jurassic period.</p>
+                </div>
+                <div class="dino-card">
+                    <img src="https://images.unsplash.com/photo-1662908930086-683d4c548d99?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkaW5vc2F1ciUyMGVnZ3MlMjBuZXN0fGVufDF8fHx8MTc2MTk5ODUzNXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                        alt="Dinosaur egg nest fossil">
+                    <h3>Dinosaur Eggs</h3>
+                    <p>Fossilized dinosaur eggs provide valuable insights into dinosaur reproduction and nesting behaviors. Some
+                        were as small as golf balls, others as large as basketballs!</p>
+                </div>
+            </div>
         </div>
-        <div><img
-                src="https://images.unsplash.com/photo-1605710580896-2aaf8aba100c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwYWxlb250b2xvZ3klMjBleGNhdmF0aW9ufGVufDF8fHx8MTc2MTk5ODE3N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                alt="">
-            <p>Paleontologists are scientists who study fossils to learn about ancient life. They carefully excavate
-                fossils from rock formations around the world, using special tools and techniques to preserve these
-                fragile remains.
 
-                Major fossil discoveries have been made on every continent, including Antarctica! These findings help us
-                piece together the story of life on Earth millions of years ago.</p>
+        <div class="contentcontainer" id="discoveries">
+            <div class="header">
+                <h2>Discovering Fossils</h2>
+            </div>
+            <div class="content">
+                <img class="content-image"
+                    src="https://images.unsplash.com/photo-1605710580896-2aaf8aba100c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwYWxlb250b2xvZ3klMjBleGNhdmF0aW9ufGVufDF8fHx8MTc2MTk5ODE3N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                    alt="Paleontologist excavating fossils">
+                <p>Paleontologists are scientists who study fossils to learn about ancient life. They carefully excavate
+                    fossils from rock formations around the world, using special tools and techniques to preserve these
+                    fragile remains.
+                    Major fossil discoveries have been made on every continent, including Antarctica! These findings help us
+                    piece together the story of life on Earth millions of years ago.</p>
+            </div>
         </div>
 
-        <div>
-            <h2>Fun Facts</h2>
-        </div>
-        <div>
-            <div>🦴</div>
-            <h3>Birds are the only living descendants of dinosaurs!</h3>
-        </div>
-        <div>
-            <div>🦖</div>
-            <h3>The word "dinosaur" means "terrible lizard" in Greek.</h3>
-        </div>
-        <div>
-            <div>🥚</div>
-            <h3>Some dinosaurs laid eggs as big as basketballs!</h3>
-        </div>
-        <div>
-            <div>⏰</div>
-            <h3>Dinosaurs lived on Earth for about 165 million years.</h3>
+        <div class="contentcontainer" id="funfacts">
+            <div class="header famousdino">
+                <h2>Fun Facts</h2>
+            
+            </div>
+            <div class="fun-facts-grid">
+                <div class="fun-fact-card">
+                    <span>🦴</span>
+                    <p>Birds are the only living descendants of dinosaurs!</p>
+                </div>
+                <div class="fun-fact-card">
+                    <span>🦖</span>
+                    <p>The word "dinosaur" means "terrible lizard" in Greek.</p>
+                </div>
+                <div class="fun-fact-card">
+                    <span>🥚</span>
+                    <p>Some dinosaurs laid eggs as big as basketballs!</p>
+                </div>
+                <div class="fun-fact-card">
+                    <span>⏰</span>
+                    <p>Dinosaurs lived on Earth for about 165 million years.</p>
+                </div>
+            </div>
         </div>
     </main>
+
     <footer>
-        <h2>Explore the fascinating world of prehistoric life through fossils and scientific discovery.</h2>
+        <p>Explore the fascinating world of prehistoric life through fossils and scientific discovery.</p>
     </footer>
 </body>
-
 </html>
